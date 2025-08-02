@@ -28,8 +28,8 @@ const Hero = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Peaceful Payments.{' '}
-                  <span className="block">Powerful Control</span>
+                  Smart Billing for the{' '}
+                  <span className="block">Zen Generation.</span>
                 </h1>
                 
                 <p className="text-lg lg:text-xl text-gray-600 leading-relaxed max-w-lg">

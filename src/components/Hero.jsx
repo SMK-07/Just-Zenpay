@@ -5,10 +5,6 @@ import Layout from './Layout';
 const Hero = () => {
   const navigate = useNavigate();
 
-  const handleGetStarted = () => {
-    navigate('/login');
-  };
-
   const handleAboutUs = () => {
     navigate('/about');
   };
@@ -43,12 +39,6 @@ const Hero = () => {
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <button 
-                  onClick={handleGetStarted}
-                  className="px-8 py-4 bg-[#2E1880] text-white font-semibold rounded-lg hover:bg-[#241260] transition-colors duration-200 shadow-lg hover:shadow-xl"
-                >
-                  Get Started
-                </button>
                 <button 
                   onClick={handleAboutUs}
                   className="px-8 py-4 bg-white text-gray-700 font-semibold border-2 border-gray-300 rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200"
